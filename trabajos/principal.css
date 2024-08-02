@@ -1,7 +1,7 @@
 @import url(compocicion/variables.css);
 @import url(compocicion/componentes.css);
 @import url(compocicion/componente2.css);
-@import url(script.js);
+@import url(compocicion/componente3.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 *{
     margin: 0;
@@ -10,26 +10,16 @@
     font-family: "Roboto Mono", monospace;
 }
 div.c1{
-    margin: 30px;
-    margin: 30px;
-    display: inline-block;
-}
+    margin: 30px auto;
+    display: block;
 
-div.c2{
-    display: inline-block;
-    background-color: var(--background-color);
-    width: 250px;
-    border-radius: 15px;
-    color: var(--letracolor);
-    margin: 30px;
-    border-bottom: 1px solid #0000;
-    }
-    div.c3{
-        display: inline-block;
-        background-color: var(--background-color);
-        width: 250px;
-        border-radius: 15px;
-        color: var(--letracolor);
-        margin: 30px;
-        border-bottom: 1px solid #0000;
-        }
+    width: 800px;
+}
+div.selectorpaginas{
+    margin: 30px auto;
+    display: block;
+    width: 500px;
+}
+.separador{
+    margin: 20px;
+}

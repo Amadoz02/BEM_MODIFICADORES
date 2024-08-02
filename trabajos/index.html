@@ -3,14 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="principal.css">
-    <link rel="stylesheet" href="BEM/bem.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Document</title>
 </head>
 <body>
-    
+<input type="checkbox" id="checkboxInput">
+<label for="checkboxInput" class="toggleSwitch">
+
+    <div class="speaker"><svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 75 75">
+        <path d="M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z" style="stroke:#fff;stroke-width:5;stroke-linejoin:round;fill:#fff;"></path>
+        <path d="M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6" style="fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round"></path>
+        </svg>
+    </div>
+
+    <div class="mute-speaker"><svg version="1.0" viewBox="0 0 75 75" stroke="#fff" stroke-width="5">
+        <path d="m39,14-17,15H6V48H22l17,15z" fill="#fff" stroke-linejoin="round"></path>
+        <path d="m49,26 20,24m0-24-20,24" fill="#fff" stroke-linecap="round"></path>
+        </svg>
+    </div>
+
+</label>
+<input type="checkbox" id="checkboxInput">
+<label for="checkboxInput" class="toggleSwitch">
+
+    <div class="speaker"><svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 75 75">
+        <path d="M39.389,13.769 L22.235,28.606 L6,28.606 L6,47.699 L21.989,47.699 L39.389,62.75 L39.389,13.769z" style="stroke:#fff;stroke-width:5;stroke-linejoin:round;fill:#fff;"></path>
+        <path d="M48,27.6a19.5,19.5 0 0 1 0,21.4M55.1,20.5a30,30 0 0 1 0,35.6M61.6,14a38.8,38.8 0 0 1 0,48.6" style="fill:none;stroke:#fff;stroke-width:5;stroke-linecap:round"></path>
+        </svg>
+    </div>
+
+    <div class="mute-speaker"><svg version="1.0" viewBox="0 0 75 75" stroke="#fff" stroke-width="5">
+        <path d="m39,14-17,15H6V48H22l17,15z" fill="#fff" stroke-linejoin="round"></path>
+        <path d="m49,26 20,24m0-24-20,24" fill="#fff" stroke-linecap="round"></path>
+        </svg>
+    </div>
+
+</label>
+
 <div class="c1">
     <aside class="menu">
         <p class="menu-1">General</p>
@@ -38,214 +69,116 @@
           <li><a class="ultimo">Saldo</a></li>
         </ul>
     </aside>
-</aside>
 
-<aside class="menu">
-    <p class="menu-2">General</p>
-    <ul class="menu-list2">
+
+    <aside class="menu">
+        <p class="menu-2">General</p>
+        <ul class="menu-list2">
+            <li><a>Tablero</a></li>
+            <li><a>Clientes</a></li>
+        </ul>
+        <p class="menu-2">Administración</p>
+        <ul class="menu-list2">
+            <li><a>Configuración del Equipo</a></li>
+            <li>
+            <a class="is-active2">Gestiona Tu Equipo</a>
+            <ul>
+                <li><a>Miembros</a></li>
+                <li><a>Plugins</a></li>
+                <li><a>Agregar un miembro</a></li>
+            </ul>
+            </li>
+
+        </ul>
+        <p class="menu-2">Transacciones</p>
+        <ul class="menu-list2">
+            <li><a>Pagos</a></li>
+            <li><a>Transferencias</a></li>
+            <li><a class="ultimo2">Saldo</a></li>
+        </ul>
+    </aside>
+
+
+    <aside class="menu">
+        <p class="menu-3">General</p>
+        <ul class="menu-list3">
         <li><a>Tablero</a></li>
         <li><a>Clientes</a></li>
-    </ul>
-    <p class="menu-2">Administración</p>
-    <ul class="menu-list2">
+        </ul>
+        <p class="menu-3">Administración</p>
+        <ul class="menu-list3">
         <li><a>Configuración del Equipo</a></li>
         <li>
-        <a class="is-active2">Gestiona Tu Equipo</a>
-        <ul>
+            <a class="is-active3">Gestiona Tu Equipo</a>
+            <ul>
             <li><a>Miembros</a></li>
             <li><a>Plugins</a></li>
             <li><a>Agregar un miembro</a></li>
-        </ul>
+            </ul>
         </li>
 
-    </ul>
-    <p class="menu-2">Transacciones</p>
-    <ul class="menu-list2">
+        </ul>
+        <p class="menu-3">Transacciones</p>
+        <ul class="menu-list3">
         <li><a>Pagos</a></li>
         <li><a>Transferencias</a></li>
-        <li><a class="ultimo2">Saldo</a></li>
-    </ul>
-</aside>
-
-
-<aside class="menu">
-    <p class="menu-3">General</p>
-    <ul class="menu-list3">
-    <li><a>Tablero</a></li>
-    <li><a>Clientes</a></li>
-    </ul>
-    <p class="menu-3">Administración</p>
-    <ul class="menu-list3">
-    <li><a>Configuración del Equipo</a></li>
-    <li>
-        <a class="is-active3">Gestiona Tu Equipo</a>
-        <ul>
-        <li><a>Miembros</a></li>
-        <li><a>Plugins</a></li>
-        <li><a>Agregar un miembro</a></li>
+        <li><a class="ultimo3">Saldo</a></li>
         </ul>
-    </li>
-
-    </ul>
-    <p class="menu-3">Transacciones</p>
-    <ul class="menu-list3">
-    <li><a>Pagos</a></li>
-    <li><a>Transferencias</a></li>
-    <li><a class="ultimo3">Saldo</a></li>
-    </ul>
-</aside>
-
-<div class="dropdown">
-    <div class="dropdown-trigger">
-        <button class="button" aria-haspopup="true" aria-controls="dropdown-menu3">
-            <span>ver opciones</span>
-            <span class="icon is-small">
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </span>
-        </button>
-    </div>
-    <div class="dropdown-menu" id="dropdown-menu3" role="menu">
-        <div class="dropdown-content">
-            <a href="#" class="dropdown-item"> ingresar </a>
-            <a href="#" class="dropdown-item"> registrarse </a>
-            <a href="#" class="dropdown-item"> opciones </a>
-            <a href="#" class="dropdown-item"> formulrios </a>
-            <a href="#" class="dropdown-item"> notas </a>
-            <a href="#" class="dropdown-item"> Componentes </a>
-            <a href="#" class="dropdown-item"> css </a>
-            <a href="#" class="dropdown-item"> html </a>
-            <a href="#" class="dropdown-item"> js </a>
-
-            <hr class="dropdown-divider" />
-            <a href="#" class="dropdown-item"> More </a>
-        </div>
-    </div>
+    </aside>
 </div>
-<div class="dropdown-1">
-    <div class="dropdown-trigger-1">
-        <button class="button-1" aria-haspopup="true" aria-controls="dropdown-menu3-1">
-            <span>Ver opciones</span>
-            <span class="icon is-small-1">
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </span>
-        </button>
-    </div>
-    <div class="dropdown-menu-1" id="dropdown-menu3-1" role="menu">
-        <div class="dropdown-content">
-            <a href="#" class="dropdown-item"> ingresar </a>
-            <a href="#" class="dropdown-item"> registrarse </a>
-            <a href="#" class="dropdown-item"> opciones </a>
-            <a href="#" class="dropdown-item"> formulrios </a>
-            <a href="#" class="dropdown-item"> notas </a>
-            <a href="#" class="dropdown-item"> Componentes </a>
-            <a href="#" class="dropdown-item"> css </a>
-            <a href="#" class="dropdown-item"> html </a>
-            <a href="#" class="dropdown-item"> js </a>
-
-            <hr class="dropdown-divider" />
-            <a href="#" class="dropdown-item"> More </a>
-        </div>
-    </div>
+<hr class="separador">
+<div class="selectorpaginas">
+    <nav class="pagination" role="navigation" aria-label="paginas">
+        <a class="siguinte-pagina is-disabled" title="primera pagina1">ir a</a>
+        <a href="#" class="siguinte-pagina2">siguiente pagina</a>
+        <ul class="pag_list">
+            <li class="elemento_lista">
+                <a class="link is-current" aria-label="Page 1" aria-current="page">1</a>
+            </li>
+            <li class="elemento_lista">
+                <a href="" class="link" aria-label="page 2">2</a>
+            </li>
+            <li class="elemento_lista">
+                <a href="" class="link" aria-label="Goto page 3">3</a>
+            </li>
+            <li class="elemento_lista">
+                <a href="" class="link" aria-label="page 4">4</a>
+            </li>
+            <li class="elemento_lista">
+                <a href="" class="link" aria-label="page 5">5</a>
+            </li>
+            <li class="elemento_lista">
+                <a href="../paginacarts.html" class="link" aria-label="page 6">6</a>
+            </li>
+        </ul>
+    </nav>
 </div>
-
-<div class="dropdown-2">
-    <div class="dropdown-trigger-1">
-        <button class="button-1" aria-haspopup="true" aria-controls="dropdown-menu3-1">
-            <span>Ver opciones</span>
-            <span class="icon is-small-1">
-                <i class="fa fa-angle-down" aria-hidden="true"></i>
-            </span>
-        </button>
-    </div>
-    <div class="dropdown-menu-1" id="dropdown-menu3-1" role="menu">
-        <div class="dropdown-content">
-            <a href="#" class="dropdown-item"> ingresar </a>
-            <a href="#" class="dropdown-item"> registrarse </a>
-            <a href="#" class="dropdown-item"> opciones </a>
-            <a href="#" class="dropdown-item"> formulrios </a>
-            <a href="#" class="dropdown-item"> notas </a>
-            <a href="#" class="dropdown-item"> Componentes </a>
-            <a href="#" class="dropdown-item"> css </a>
-            <a href="#" class="dropdown-item"> html </a>
-            <a href="#" class="dropdown-item"> js </a>
-
-            <hr class="dropdown-divider" />
-            <a href="#" class="dropdown-item"> More </a>
-        </div>
-    </div>
+<div class="selectorpaginas">
+    <nav class="pagination_mod1_bordes_color" role="navigation" aria-label="paginas">
+        <a class="siguinte-pagina is-disabled" title="primera pagina1">ir a</a>
+        <a href="#" class="siguinte-pagina2">siguiente pagina</a>
+        <span href="" class="material-symbols-outlined">arrow_forward</span>
+        <ul class="pag_list">
+            <li class="elemento_lista_bordes_color">
+                <a class="link is-current" aria-label="Page 1" aria-current="page">1</a>
+            </li>
+            <li class="elemento_lista_bordes_color">
+                <a href="" class="link" aria-label="page 2">2</a>
+            </li>
+            <li class="elemento_lista_bordes_color">
+                <a href="" class="link" aria-label="Goto page 3">3</a>
+            </li>
+            <li class="elemento_lista_bordes_color">
+                <a href="" class="link" aria-label="page 4">4</a>
+            </li>
+            <li class="elemento_lista_bordes_color">
+                <a href="" class="link" aria-label="page 5">5</a>
+            </li>
+            <li class="elemento_lista_bordes_color">
+                <a href="../paginacarts.html" class="link" aria-label="page 6">6</a>
+            </li>
+        </ul>
+    </nav>
 </div>
-
-<bottom class="boton">
-    <span class="boton__texto">producto</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</bottom>
-<a href="#" class="boton boton--borde">
-    <span class="boton__texto">producto</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</a>
-
-<hr>
-<bottom class="boton boton--color1">
-    <span class="boton__texto">compra</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</bottom>
-<a href="#" class="boton boton--color-1">
-    <span class="boton__texto">compra</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</a>
-<hr>
-<bottom class="boton boton--color2">
-    <span class="boton__texto">venta</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</bottom>
-<a href="#" class="boton boton--color-2">
-    <span class="boton__texto">venta</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</a>
-<hr>
-<bottom class="boton boton--color3">
-    <span class="boton__texto">info</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</bottom>
-<a href="#" class="boton boton--color-3">
-    <span class="boton__texto">info</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</a>
-<hr>
-<bottom class="boton boton--color4">
-    <span class="boton__texto">salir</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</bottom>
-<a href="#" class="boton boton--color-4">
-    <span class="boton__texto">salir</span>
-    <i class='boton__icono bx bx-cart-add'></i>
-</a>
-
-<ul class="lista">
-    <li class="lista_item">
-        <span class="lista_texto" >x</span>
-        <i class="lista_icono"></i>
-    </li>
-    <li class="lista_item">
-        <span class="lista_texto" >x</span>
-        <i class="lista_icono"></i>
-    </li>
-    <li class="lista_item">
-        <span class="lista_texto" >x</span>
-        <i class="lista_icono"></i>
-    </li>
-    <li class="lista_item">
-        <span class="lista_texto" >x</span>
-        <i class="lista_icono"></i>
-    </li>
-    <li class="lista_item">
-        <span class="lista_texto" >x</span>
-        <i class="lista_icono"></i>
-    </li>
-    <li class="lista_item">
-        <span class="lista_texto" >x</span>
-        <i class="lista_icono"></i>
-    </li>
-</ul>
 </body>
 </html>
