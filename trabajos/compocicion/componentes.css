@@ -1,0 +1,189 @@
+
+.menu {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  width: 250px;
+  border-radius: 15px;
+  display: inline-block;
+}
+
+.menu-1{
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  border-radius: 15px;
+
+}
+
+.menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu-list a {
+  display: block;
+  color: var(--primary-color);
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--secondary-color);
+  transition: background-color 0.3s;
+  list-style: none;
+
+}
+
+.menu-list a:hover {
+  background-color: var(--hover-color);
+  color: var(--secondary-color);
+}
+
+.menu-list .is-active {
+  background-color: var(--active-color);
+
+
+}
+
+.menu-list ul {
+  list-style: none;
+
+}
+
+.menu-list ul a {
+  padding-left: 30px;
+
+
+
+}
+a.ultimo{
+  border-radius: 0 0 15px 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.menu2 {
+  background-color: var(--secondary-color);
+  border: none;
+  width: 250px;
+  border-radius: 15px;
+  display: inline-block;
+  border: 1px solid #0000;
+}
+
+.menu-2{
+  color: var(--letracolor2);
+  font-weight: bold;
+  padding: 10px;
+  border: 1px solid #0000;
+  background-color: var(--border-color);
+  border-radius: 15px;
+  
+}
+
+.menu-list2 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.menu-list2 a {
+  display: block;
+  color: var(--textocolor2);
+  padding: 10px;
+  text-decoration: none;
+  border-bottom:1px solid var(--primary-color);
+  background-color: var(--secondary-color);
+  transition: background-color 0.5s;
+  list-style: none;
+
+}
+
+.menu-list2 a:hover {
+  background-color: var(--color2);
+  color: var(--secondary-color);
+}
+
+
+
+
+.menu-list2 ul {
+  list-style: none;
+
+}
+
+.menu-list2 ul a {
+  padding-left: 30px;
+
+
+
+}
+
+
+
+
+
+
+
+
+.menu-3 {
+  color: var(--hovercolor2);
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--background-color);
+  border-radius: 15px;
+}
+
+.menu-list3 {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list3 a {
+  display: block;
+  color: var(--primary-color);
+  padding: 10px;
+  text-decoration: none;
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--secondary-color);
+  transition: background-color var(--transition-duration), color var(--transition-duration), transform var(--transition-duration);
+  list-style: none;
+}
+
+.menu-list3 a:hover {
+  background-color: var(--hovercolor2);
+  color: var(--letracolor2);
+  transform: scale(var(--hover-scale));
+}
+
+.menu-list3 .is-active {
+  background-color: var(--color2);
+}
+
+.menu-list3 ul {
+  list-style: none;
+}
+
+.menu-list3 ul a {
+  padding-left: 30px;
+}
+
+a.ultimo3 {
+  border-radius: 0 0 15px 15px;
+}

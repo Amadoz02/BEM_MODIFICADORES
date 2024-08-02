@@ -1,0 +1,16 @@
+:root {
+
+  --primary-color: #204e22;
+  --secondary-color: #ffffff;
+  --hover-color: #4565a0;
+  --border-color: #a6a6a6;
+  --background-color: #f9f9f9;
+  --active-color: #d4d4d4;
+  --transition-duration: 0.3s;
+  --hovercolor2: #25a6cde5;
+  --color2:#dfa8f2c6;
+  --letracolor2:#000000;
+  --bordercolor2:#fff;
+  --hover-scale:1.1;
+}
+

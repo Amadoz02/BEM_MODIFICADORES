@@ -1,0 +1,181 @@
+.dropdown {
+    margin: 30px;
+    position: absolute;
+    display: inline-block;
+    width: 20%;
+}
+
+.dropdown-trigger .button {
+    font-size: 2rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    padding: 20px;
+    border: 1px solid var(--border-color);
+    transition: background-color var(--transition-duration), transform var(--transition-duration);
+}
+
+.dropdown-trigger .button:hover {
+    background-color: var(--hover-color);
+    transform: scale(var(--hover-scale));
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown.is-active .dropdown-menu {
+    display: inline-block;
+}
+
+.dropdown-item {
+    padding: 10px;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-item:hover {
+    background-color: var(--hovercolor2);
+    color: var(--letracolor2);
+}
+
+.dropdown-item.is-active {
+    background-color: var(--active-color);
+}
+
+.dropdown-divider {
+    height: 1px;
+    margin: 5px 0;
+    background-color: var(--border-color);
+}
+
+/* Primer diseño modificado */
+.dropdown-1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-1 .button {
+    background-color: var(--color2);
+    color: var(--letracolor2);
+    border: 2px solid var(--bordercolor2);
+    transition: background-color var(--transition-duration), transform var(--transition-duration), box-shadow var(--transition-duration);
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.dropdown-1 .button:hover {
+    background-color: var(--hovercolor2);
+    transform: scale(var(--hover-scale));
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-1 .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    border-radius: 8px;
+    transition: opacity var(--transition-duration);
+}
+
+.dropdown-1.is-active .dropdown-menu {
+    display: block;
+    opacity: 1;
+}
+
+.dropdown-1 .dropdown-item {
+    padding: 10px 15px;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.dropdown-1 .dropdown-item:hover {
+    background-color: var(--hover-color);
+    color: var(--secondary-color);
+}
+
+.dropdown-1 .dropdown-item.is-active {
+    background-color: var(--active-color);
+}
+
+.dropdown-1 .dropdown-divider {
+    height: 1px;
+    margin: 5px 0;
+    background-color: var(--border-color);
+}
+/* Segundo diseño modificado */
+.dropdown-2 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-2 .button {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    transition: background-color var(--transition-duration), transform var(--transition-duration), border-color var(--transition-duration);
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.dropdown-2 .button:hover {
+    background-color: var(--hover-color);
+    transform: scale(var(--hover-scale));
+    border-color: var(--hovercolor2);
+}
+
+.dropdown-2 .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: var(--background-color);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 4px;
+    transition: max-height var(--transition-duration) ease-in-out, opacity var(--transition-duration) ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+}
+
+.dropdown-2.is-active .dropdown-menu {
+    display: block;
+    max-height: 200px;
+    opacity: 1;
+}
+
+.dropdown-2 .dropdown-item {
+    padding: 8px 12px;
+    color: var(--primary-color);
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-2 .dropdown-item:hover {
+    background-color: var(--hovercolor2);
+    color: var(--letracolor2);
+}
+
+.dropdown-2 .dropdown-item.is-active {
+    background-color: var(--active-color);
+}
+
+.dropdown-2 .dropdown-divider {
+    height: 1px;
+    margin: 5px 0;
+    background-color: var(--border-color);
+}
+.dropdown-menu-1, .dropdown-menu-2 {
+    display: none;
+}
+
+.dropdown-menu-1.is-active, .dropdown-menu-2.is-active {
+    display: block;
+}
